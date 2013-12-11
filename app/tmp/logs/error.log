@@ -690,3 +690,84 @@ Request URL: /cafeteria/Ordenes
 Stack Trace:
 #0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-12-11 13:43:42 Error: [MissingControllerException] Controller class OrdenesController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdenesController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordenes
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:43:46 Error: [MissingControllerException] Controller class OrdeneController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdeneController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordene
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:43:48 Error: [MissingControllerException] Controller class OrdensController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdensController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordens
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:44:19 Error: [MissingControllerException] Controller class OrdenesController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdenesController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordenes
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:45:50 Error: [MissingTableException] Table ordenes for model Ordene was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ordenes',
+  'class' => 'Ordene',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Ordenes
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('ordenes')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(OrdenesController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OrdenesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 13:46:56 Error: [MissingControllerException] Controller class OrdeneController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdeneController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordene
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:53:04 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`mesas`, CONSTRAINT `k_mesas` FOREIGN KEY (`idempleados`) REFERENCES `empleados` (`idempleados`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /cafeteria/Mesas/add
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(MesasController), Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MesasController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
