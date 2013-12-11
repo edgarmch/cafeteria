@@ -1,0 +1,215 @@
+2013-12-10 20:30:01 Error: [MissingControllerException] Controller class CatalogosController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogosController',
+  'plugin' => NULL,
+)
+Request URL: /project/catalogos
+Stack Trace:
+#0 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 20:30:35 Error: [MissingControllerException] Controller class TipoproductosController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoproductosController',
+  'plugin' => NULL,
+)
+Request URL: /project/tipoproductos
+Stack Trace:
+#0 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 20:30:50 Error: [MissingControllerException] Controller class CatalogsController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogsController',
+  'plugin' => NULL,
+)
+Request URL: /project/catalogs
+Stack Trace:
+#0 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 20:30:52 Error: [MissingControllerException] Controller class CatalogosController could not be found.
+Exception Attributes: array (
+  'class' => 'CatalogosController',
+  'plugin' => NULL,
+)
+Request URL: /project/catalogos
+Stack Trace:
+#0 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 20:31:41 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'database_name\'',
+  'enabled' => true,
+)
+Request URL: /project/catalogos
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/project/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/project/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#3 /var/www/project/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/project/lib/Cake/Model/Model.php(3493): Model->setSource('catalogos')
+#5 /var/www/project/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#6 /var/www/project/lib/Cake/Model/Model.php(1445): Model->schema()
+#7 /var/www/project/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#8 /var/www/project/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#9 /var/www/project/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#10 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#11 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#12 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-12-10 20:33:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipo_productos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /project/catalogos/add
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/project/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/project/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/project/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/project/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-10 20:35:47 Error: [MissingControllerException] Controller class TipoProdutosController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoProdutosController',
+  'plugin' => NULL,
+)
+Request URL: /project/tipo_produtos
+Stack Trace:
+#0 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 20:36:11 Error: [MissingControllerException] Controller class TipoProdutosController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoProdutosController',
+  'plugin' => NULL,
+)
+Request URL: /project/tipo_produtos
+Stack Trace:
+#0 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 20:36:13 Error: [MissingControllerException] Controller class TipoProdutosController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoProdutosController',
+  'plugin' => NULL,
+)
+Request URL: /project/tipo_produtos
+Stack Trace:
+#0 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 20:36:34 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipo_productos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /project/catalogos/add
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/project/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/project/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/project/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/project/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-10 20:37:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipo_productos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /project/catalogos/add
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/project/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/project/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/project/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/project/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-10 20:37:53 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipo_productos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /project/catalogos/add
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/project/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/project/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/project/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/project/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-10 20:45:37 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipo_productos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /project/catalogos/add
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/project/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/project/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/project/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/project/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-10 20:51:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipoproductos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /project/catalogos/add
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/project/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/project/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/project/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/project/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-11 11:13:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipoproductos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /project/catalogos/add
+Stack Trace:
+#0 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/project/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/project/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/project/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/project/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/project/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/project/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/project/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/project/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/project/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/project/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-11 11:55:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `k_tipo_producti` FOREIGN KEY (`idtipo_producto`) REFERENCES `tipoproductos` (`idtipo_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /cafeteria/catalogos/add
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
