@@ -213,3 +213,66 @@ Stack Trace:
 #10 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
 #11 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2013-12-11 12:21:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cafeteria`.`catalogos`, CONSTRAINT `ktipoproducti` FOREIGN KEY (`idtipoproducto`) REFERENCES `productotipos` (`idtipoproducto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /cafeteria/catalogos/add
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cafeteria/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1830): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-11 12:30:09 Error: [MissingControllerException] Controller class TipoproductoController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoproductoController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/tipoproducto
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 12:31:06 Error: [MissingControllerException] Controller class TipoproductoController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoproductoController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/tipoproducto
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 12:31:34 Error: [MissingControllerException] Controller class TipoproductosController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoproductosController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 12:31:53 Error: [MissingTableException] Table tipo_productos for model TipoProducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_productos',
+  'class' => 'TipoProducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/TipoProductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipo_productos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoProductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoProductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
