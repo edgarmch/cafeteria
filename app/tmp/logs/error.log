@@ -390,3 +390,294 @@ Stack Trace:
 #11 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
 >>>>>>> b9fb3604bce5398208fea72306007d2f1b70870a
+2013-12-11 12:49:01 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:49:30 Error: [MissingControllerException] Controller class TipoproductoController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoproductoController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Tipoproducto
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 12:49:36 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:49:47 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:56:59 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:57:04 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:57:06 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:57:31 Error: [MissingActionException] Action Catalogos::tipoproductos() could not be found.
+Exception Attributes: array (
+  'controller' => 'Catalogos',
+  'action' => 'tipoproductos',
+)
+Request URL: /cafeteria/catalogos/tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#2 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-12-11 12:58:22 Error: [MissingActionException] Action Catalogos::Tipoproductos() could not be found.
+Exception Attributes: array (
+  'controller' => 'Catalogos',
+  'action' => 'Tipoproductos',
+)
+Request URL: /cafeteria/catalogos/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(CatalogosController), Object(CakeRequest))
+#2 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CatalogosController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-12-11 12:58:40 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:58:48 Error: [MissingControllerException] Controller class TipoproductoController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoproductoController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Tipoproducto
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 12:58:51 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:59:20 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 12:59:24 Error: [MissingTableException] Table tipoproductos for model Tipoproducto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipoproductos',
+  'class' => 'Tipoproducto',
+  'ds' => 'default',
+)
+Request URL: /cafeteria/Tipoproductos
+Stack Trace:
+#0 /var/www/cafeteria/lib/Cake/Model/Model.php(3493): Model->setSource('tipoproductos')
+#1 /var/www/cafeteria/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#2 /var/www/cafeteria/lib/Cake/Model/Model.php(1445): Model->schema()
+#3 /var/www/cafeteria/lib/Cake/Model/Model.php(1432): Model->hasField('title', false)
+#4 /var/www/cafeteria/lib/Cake/Model/Model.php(880): Model->hasField(Array)
+#5 /var/www/cafeteria/lib/Cake/Controller/Scaffold.php(131): Model->__get('displayField')
+#6 /var/www/cafeteria/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TipoproductosController), Object(CakeRequest))
+#7 /var/www/cafeteria/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cafeteria/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TipoproductosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-11 13:20:30 Error: [MissingControllerException] Controller class OrdenesController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdenesController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordenes
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:20:34 Error: [MissingControllerException] Controller class OrdenController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdenController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Orden
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:20:41 Error: [MissingControllerException] Controller class OrdenesController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdenesController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordenes
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:20:52 Error: [MissingControllerException] Controller class OrdenesController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdenesController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordenes
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-11 13:21:12 Error: [MissingControllerException] Controller class OrdenesController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdenesController',
+  'plugin' => NULL,
+)
+Request URL: /cafeteria/Ordenes
+Stack Trace:
+#0 /var/www/cafeteria/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
