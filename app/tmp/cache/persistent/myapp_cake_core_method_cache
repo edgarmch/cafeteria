@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 1386786723
 a:1:{s:4:"name";a:1:{s:32:"1fa7210ed571b48514bb1294aeda6211";s:11:"`cafeteria`";}}
+=======
+1386787061
+a:2:{s:4:"name";a:14:{s:32:"1fa7210ed571b48514bb1294aeda6211";s:11:"`cafeteria`";s:32:"ba7a2ec97a4127614618b15edfa250dc";s:11:"`catalogos`";s:32:"98618f78528df1b88b220b5bfebbcff4";s:12:"`idproducto`";s:32:"ddb1b63d77df395d8d7f6b74082264d9";s:8:"`nombre`";s:32:"dbbdea1aee5eedd30d9bc7aa1db96995";s:8:"`precio`";s:32:"94dc29948147386e2d9808811c0085ea";s:10:"`cantidad`";s:32:"e59e58effed2d62c7b60709246c321bf";s:17:"`idtipo_producto`";s:32:"f948793d5b88139e71c6ff4a4f2c0388";s:23:"`Catalogo`.`idproducto`";s:32:"d6b3eb74ec16f08c80f3ac3e9b971d6c";s:19:"`Catalogo`.`nombre`";s:32:"c65c1655641cc51c277177fb85bed892";s:19:"`Catalogo`.`precio`";s:32:"893f5d96b29108fc181dfc2e9ff147de";s:21:"`Catalogo`.`cantidad`";s:32:"4eb8ffd25b98cbbeb265465ce2349274";s:28:"`Catalogo`.`idtipo_producto`";s:32:"aae7c2576cd63920107cf7d904186e36";s:10:"`Catalogo`";s:32:"47eb7bb09414c64f779510914712b6ee";s:7:"`count`";}s:6:"fields";a:2:{s:32:"9fdca4e2093c3b2829c14f49c8c63f3a";a:5:{i:0;s:23:"`Catalogo`.`idproducto`";i:1;s:19:"`Catalogo`.`nombre`";i:2;s:19:"`Catalogo`.`precio`";i:3;s:21:"`Catalogo`.`cantidad`";i:4;s:28:"`Catalogo`.`idtipo_producto`";}s:32:"a1c0567f1a00c375b6ca74b127bafcf6";a:1:{i:0;s:19:"COUNT(*) AS `count`";}}}
+>>>>>>> b9fb3604bce5398208fea72306007d2f1b70870a
