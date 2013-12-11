@@ -1,8 +1,8 @@
 <?php
 
-	class TipoProducto extends AppModel{
+	class Tipoproducto extends AppModel{
 	
-	var $name = 'TipoProducto';
+	var $name = 'Tipoproducto';
 	var $hasMany = array('Catalogo' -> 
 	array( 'className' -> 'Catalogo'
 	)
